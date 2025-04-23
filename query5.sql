@@ -1,0 +1,1 @@
+SELECT productVendor, productCode, quantityInStock FROM products WHERE productVendor = 'Exoto Designs'
