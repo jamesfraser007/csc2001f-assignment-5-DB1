@@ -1,0 +1,1 @@
+SELECT officeCode, COUNT(employeeNumber) AS numEmps FROM employees GROUP BY officeCode ORDER BY officeCode ASC

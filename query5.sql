@@ -1,1 +1,1 @@
-SELECT productVendor, productCode, quantityInStock FROM products WHERE productVendor = 'Exoto Designs'
+SELECT productVendor, productCode, quantityInStock * 2 AS newStock FROM products WHERE productVendor LIKE 'Ex%to Designs'

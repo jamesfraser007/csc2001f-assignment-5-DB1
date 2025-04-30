@@ -1,0 +1,1 @@
+SELECT ROUND(AVG(buyprice), 2) AS avPrice FROM products

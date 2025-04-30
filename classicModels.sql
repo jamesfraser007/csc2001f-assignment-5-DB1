@@ -1,4 +1,5 @@
 -- "Don’t ask SQL developers to help move your furniture. They drop tables." - Anonymous
+-- "Don’t ask SQL developers to help move your furniture. They drop tables." - Anonymous
 
 -- phpMyAdmin SQL Dump
 -- version 3.4.5
