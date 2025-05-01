@@ -1,2 +1,2 @@
-SELECT products.productCode FROM products, orderdetails 
-WHERE products.productCode <> orderdetails.productCode
+SELECT products.productCode FROM products 
+WHERE products.productCode NOT IN (SELECT productCode FROM orderdetails) 

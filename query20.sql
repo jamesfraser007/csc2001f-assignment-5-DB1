@@ -1,3 +1,4 @@
-SELECT priceEach AS anyProblems FROM orderdetails WHERE priceEach = 0
+SELECT  'YES' AS anyProblems WHERE EXISTS
+(SELECT priceEach AS anyProblems FROM orderdetails WHERE priceEach = 0
 UNION  
-SELECT buyPrice AS anyProblems FROM products WHERE buyPrice = 0;
+SELECT buyPrice AS anyProblems FROM products WHERE buyPrice = 0)
