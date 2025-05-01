@@ -1,2 +1,2 @@
-SELECT DISTINCT COUNT(creditLimit) AS numLimits 
+SELECT COUNT(DISTINCT creditLimit) AS numLimits 
 FROM customers
